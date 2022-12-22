@@ -1,5 +1,5 @@
 import "./topbar.css"
-import model from "../assates/model-women.jpg"
+import model from "../../assates/model-women.jpg"
 
 
 function TopBar() {

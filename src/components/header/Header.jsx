@@ -1,5 +1,5 @@
 import './header.css'
-import homeImage from '../assates/home-img3.jpg'
+import homeImage from '../../assates/home-img3.jpg'
 
 function Header() {
   return (

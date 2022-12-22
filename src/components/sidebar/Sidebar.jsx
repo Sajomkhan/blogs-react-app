@@ -1,5 +1,5 @@
 import './sidebar.css'
-import sidebarImage from '../assates/sidebar-img.jpg'
+import sidebarImage from '../../assates/sidebar-img.jpg'
 
 function Sidebar() {
   return (
