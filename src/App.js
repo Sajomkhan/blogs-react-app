@@ -15,15 +15,10 @@ import {
 
 function App() {
   return (
-    <Router>
+    <>
      <TopBar />
-     <switch>
-      <Route path="/">
-        <Home />
-      </Route>
-
-     </switch>
-    </Router>
+     <Home />
+    </>
   );
 }
 
