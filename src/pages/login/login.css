@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    background-image: linear-gradient(rgba(224, 228, 226, 0.8),
-            rgba(214, 238, 255, 0.7)), url(../../assates/login-img2.jpg);
+    background-image: linear-gradient(rgba(222, 237, 244, 0.9),
+            rgba(231, 233, 235, 0.9)), url(../../assates/login-img2.jpg);
     background-size: cover;
 }
 
@@ -49,7 +49,7 @@
     cursor: pointer;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
-
+    font-size: 16px;
 }

@@ -1,4 +1,5 @@
 import './resister.css'
+import {Link} from 'react-router-dom';
 
 
 function Resister() {
@@ -14,7 +15,10 @@ function Resister() {
         <input type="password" className='resisterInput' placeholder='Enter your password...' />
         <button className='resisterButton'>Resister</button>
       </form>
-      <button className='resisterLoginButton'>Login</button>
+      
+      <button className='resisterLoginButton'>
+        <Link className='link' to="/login" >Login</Link>
+      </button>
     </div>
   )
 }
