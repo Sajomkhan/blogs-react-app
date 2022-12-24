@@ -10,6 +10,7 @@ import Resister from "./pages/resister/Resister";
 import Post from "./components/post/Post";
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
+import Error from './pages/error/Error';
 
 function App() {
   const user = false;
@@ -24,21 +25,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/write" element={user? <Write /> : <Resister/>} />
         <Route path="/settings" element={user? <Settings /> : <Resister/>} />
-        <Route path="/post/:postId" element={<Single />} />        
+        <Route path="/post/:postId" element={<Single />} />
+        <Route path="/*" element={<Error />} />     
      </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
-// function App() {
-//   return (
-//     <>
-//      <TopBar />
-//      <Home />
-//     </>
-//   );
-// }
-
-// export default App;

@@ -1,0 +1,10 @@
+.error{
+    justify-content: center;
+    align-items: center;
+}
+
+.error h2{
+    margin-top: 200px;
+    text-align: center;
+    color: red;
+}

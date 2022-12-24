@@ -6,11 +6,31 @@
     z-index: 500 !important;
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-family: 'Roboto', sans-serif;
 }
-.topLeft,.topRight{
+
+.topLogo{
+    flex: 2;
+    position: relative;    
+}
+
+.topLogo img{
+    width: 100px;
+    position: absolute;
+    left: 30%;    
+}
+
+.topLeft{
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-left: 20px;   
+}
+.topRight{
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +44,7 @@
 }
 
 .topCenter{
-    flex: 6;
+    flex: 5;
 }
 
 .topImg{
@@ -36,13 +56,13 @@
 
 .topList{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.topListItem{
+.topList li{
     margin-right: 20px;
     font-size: 14px;
     cursor: pointer;
