@@ -1,6 +1,71 @@
-.posts{
+.postsMain{
     flex: 9;
     display: flex;
     flex-wrap: wrap;
     margin: 50px 60px;
+}
+
+
+.posts{
+    width: 400px;
+    margin: 25px 25px 40px 25px;
+}
+
+.postsImg{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.postsInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postsCat{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #ae9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.postsTitle{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    font-weight: 700px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postsDate {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #999;
+}
+
+.postsDesc{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #444;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.postsDesc::first-letter{
+    margin-left: 30px;
+    /* font-size: 23px;
+    font-weight: 550; */
 }

@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, Link, NavLink } from 'react-router-dom'
 
 import Home from "./pages/home/Home";
 import TopBar from "./components/topbar/TopBar";
+import Posts from "./components/posts/Posts";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
@@ -19,6 +20,7 @@ function App() {
      <TopBar />
      <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/posts" element={<Posts />} />
         <Route path="/resister" element={user? <Home/> : <Resister />} />
         <Route path="/login" element={user? <Home/> : <Login />} />
         <Route path="/about" element={<About />} />

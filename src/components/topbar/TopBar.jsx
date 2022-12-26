@@ -21,6 +21,7 @@ function TopBar() {
       <div className="topCenter">
           <ul className="topList">
               <li><Link className='link' to="/">HOME</Link></li>
+              <li><Link className='link' to="/posts">BLOGS</Link></li>
               <li><Link className='link' to="/about">ABOUT</Link></li>
               <li><Link className='link' to="/contact">CONTACT</Link></li>
               <li><Link className='link' to="/write">WRITE</Link></li>
